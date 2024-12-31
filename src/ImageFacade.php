@@ -9,8 +9,8 @@ use Exewen\Logger\LoggerProvider;
 use Exewen\Image\Contract\ImageInterface;
 
 /**
- * @method static array pdfToPng(string $pdfPath, string $outputFolder, int $page = -1, array $crop = [])
- * @method static array qrPng(string $imagePath)
+ * @method static array pdfToImage(string $pdfPath, string $outputFolder, int $page = -1, array $crop = [])
+ * @method static array qrRead(string $imagePath)
  */
 class ImageFacade extends Facade
 {

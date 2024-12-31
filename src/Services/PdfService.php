@@ -8,7 +8,7 @@ use Exewen\Image\Exception\ImageException;
 class PdfService
 {
     /**
-     * pdf 转 png
+     * pdf 转 图片
      * @param string $pdfPath
      * @param string $outputFolder
      * @param int $page
@@ -16,7 +16,7 @@ class PdfService
      * @return array|mixed|string
      * @throws \ImagickException
      */
-    public function pdfToPng(string $pdfPath, string $outputFolder, int $page, array $crop = [])
+    public function pdfToImage(string $pdfPath, string $outputFolder, int $page, array $crop = [])
     {
         if (!extension_loaded('imagick')) {
             throw new ImageException("imagick扩展不存在!");

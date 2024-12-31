@@ -7,8 +7,8 @@ namespace Exewen\Image\Contract;
 
 interface ImageInterface
 {
-    public function pdfToPng(string $pdfPath, string $outputFolder, int $page= -1,array $crop=[]);
-    public function qrPng(string $imagePath);
+    public function pdfToImage(string $pdfPath, string $outputFolder, int $page= -1, array $crop=[]);
+    public function qrRead(string $imagePath);
 
 
 }

@@ -25,14 +25,14 @@ class Image implements ImageInterface
         $this->qrService  = $qrService;
     }
 
-    public function pdfToPng(string $pdfPath, string $outputFolder, int $page = -1, array $crop = [])
+    public function pdfToImage(string $pdfPath, string $outputFolder, int $page = -1, array $crop = [])
     {
-        return $this->pdfService->pdfToPng($pdfPath, $outputFolder, $page, $crop);
+        return $this->pdfService->pdfToImage($pdfPath, $outputFolder, $page, $crop);
     }
 
-    public function qrPng(string $imagePath)
+    public function qrRead(string $imagePath)
     {
-        return $this->qrService->qrPng($imagePath);
+        return $this->qrService->qrRead($imagePath);
     }
 
 }
