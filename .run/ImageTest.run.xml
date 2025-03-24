@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ImageTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="ExewenTest\Image\ImageTest" file="$PROJECT_DIR$/tests/ImageTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>

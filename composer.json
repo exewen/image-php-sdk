@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.3",
         "ext-json": "*",
-        "exewen/facades": "^1",
+        "exewen/facades": "^2",
         "khanamiryan/qrcode-detector-decoder": "1.0.5.2"
     },
     "require-dev": {
